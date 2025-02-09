@@ -5,25 +5,25 @@ import FormTop from "./FormTop";
 const ResumeSidebar = (props) => {
   return (
     <>
-      <div class="d-flex flex-column flex-nowrap py-5 glass form">
+      <div className="d-flex flex-column flex-nowrap py-5 glass form">
         <FormTop />
         <div className="content fadein">
-          <div class="d-flex flex-column justify-content-center text-center align-items-center pb-3 mb-3">
+          <div className="d-flex flex-column justify-content-center text-center align-items-center pb-3 mb-3">
             <img
-              src="../assets/images/photo.png"
+              src="./assets/images/photo.png"
               alt="profile picture"
-              class="profile border border-2 rounded-circle my-2"
+              className="profile border border-2 rounded-circle my-2"
             />
             <h5>Joel Gecale</h5>
             <h6>Full Stack Web Developer</h6>
           </div>
           <hr />
 
-          <ul class="nav nav-pills flex-column mb-auto ps-4">
-            <li class="nav-item">
+          <ul className="nav nav-pills flex-column mb-auto ps-4">
+            <li className="nav-item">
               <Link
                 href="#"
-                class="nav-link"
+                className="nav-link"
                 onClick={(e) => {
                   e.preventDefault();
                   props.menuClick(1);
@@ -36,7 +36,7 @@ const ResumeSidebar = (props) => {
             <li>
               <Link
                 href="#"
-                class="nav-link"
+                className="nav-link"
                 onClick={(e) => {
                   e.preventDefault();
                   props.menuClick(3);
@@ -48,7 +48,7 @@ const ResumeSidebar = (props) => {
 
             <li>
               <Link
-                class="nav-link"
+                className="nav-link"
                 aria-current="page"
                 onClick={(e) => {
                   e.preventDefault();
@@ -62,7 +62,7 @@ const ResumeSidebar = (props) => {
             <li>
               <Link
                 href="#"
-                class="nav-link"
+                className="nav-link"
                 onClick={(e) => {
                   e.preventDefault();
                   props.menuClick(4);

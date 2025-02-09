@@ -23,7 +23,7 @@ const Projects = () => {
     {
       title: "HGCSC Website",
       description:
-        "This is a website designed for a local private school which aims for them to be more visible and to have an additional platform to post updates with regards to their operations.",
+        "This is a website designed for a private school which aims for them to be more visible and to have an additional platform to post updates with regards to their operations.",
       image: "HGCSC.png",
       tools: ["html", "css", "python", "react", "wagtail"],
       link: "",
@@ -53,7 +53,7 @@ const Projects = () => {
         <article className="p-5">
           <h2 className="py-2 embossed">Sample Projects</h2>
           <hr />
-          <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+          <div className="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
             {projectItems.map((projectItem) => (
               <ProjectItem projectItem={projectItem} />
             ))}
