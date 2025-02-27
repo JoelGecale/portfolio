@@ -5,6 +5,14 @@ import FormTop from "./FormTop";
 const Projects = () => {
   const projectItems = [
     {
+      title: "EaseStock",
+      description:
+        "EaseStock is a basic inventory system designed for small shops and stores. It includes functionalities for product details maintenance, stock updating, movement logs and inventory summary.",
+      image: "easestock.png",
+      tools: ["html", "css", "js", "tailwind", "react"],
+      link: "https://easestock.onrender.com/",
+    },
+    {
       title: "Hope of Glory Christian Church Website",
       description:
         "This is a website designed for our local church. This aims to promote the church by providing a medium to present their vision, mission and ministry.",

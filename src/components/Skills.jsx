@@ -17,6 +17,7 @@ const Skills = () => {
                 <img src="./assets/images/css.png" className="icon"></img>
                 <img src="./assets/images/js.png" className="icon"></img>
                 <img src="./assets/images/bootstrap.png" className="icon"></img>
+                <img src="./assets/images/tailwind.png" className="icon"></img>
                 <img src="./assets/images/node.png" className="icon"></img>
                 <img src="./assets/images/express.png" className="icon"></img>
                 <img src="./assets/images/react.png" className="icon"></img>

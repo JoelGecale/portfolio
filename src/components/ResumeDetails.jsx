@@ -157,7 +157,7 @@ const ResumeDetails = (props, ref) => {
           <ul className="ps-5">
             <li className="py-2">
               <h5>Web Development</h5>
-              <p>HTML, CSS, Javascript, Bootstrap, Node.js, Express, ReactJS</p>
+              <p>HTML, CSS, Javascript, Bootstrap, Tailwind, Node.js, Express, ReactJS</p>
             </li>
             <li className="py-2">
               <h5>Desktop Programming</h5>
